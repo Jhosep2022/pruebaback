@@ -1,0 +1,10 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://jose:jose@prueba.rwybxat.mongodb.net/prueba?retryWrites=true&w=majority
+  jackson:
+    serialization:
+      indent-output: true
+
+server:
+  port: 8080
